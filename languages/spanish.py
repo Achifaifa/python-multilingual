@@ -1,5 +1,6 @@
 # marker : translated expression # original python keyword
 spanish={"PRINTEXP": "imprimir", #print
+"DEFEXP": "definir", #def
 "DELEXP": "borrar", #del
 "PASSEXP": "pasar", #pass
 "BREAKEXP": "salir", #break
@@ -25,8 +26,8 @@ spanish={"PRINTEXP": "imprimir", #print
 "EXCEPTEXP": "excepto", #except
 "EXCEPTASEXP": "como", #as
 "LAMBDAEXP": "lambda", #lambda
-"OREXP": "o", #or
-"ANDEXP": "y", #and
+"OREXP": "obien", #or
+"ANDEXP": "yademas", #and
 "NOTEXP": "no", #not
 "ISEXP": "es", #is
 "CLASSEXP": "clase", #class

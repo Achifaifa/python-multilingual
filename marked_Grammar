@@ -22,7 +22,7 @@ eval_input: testlist NEWLINE* ENDMARKER
 decorator: '@' dotted_name [ '(' [arglist] ')' ] NEWLINE
 decorators: decorator+
 decorated: decorators (classdef | funcdef)
-funcdef: 'def' NAME parameters ':' suite
+funcdef: ('def'|'DEFEXP') NAME parameters ':' suite
 parameters: '(' [varargslist] ')'
 varargslist: ((fpdef ['=' test] ',')*
               ('*' NAME [',' '**' NAME] | '**' NAME) |
@@ -127,12 +127,12 @@ arglist: (argument ',')* (argument [',']
 argument: test [comp_for] | test '=' test
 
 list_iter: list_for | list_if
-list_for: 'for' exprlist 'in' testlist_safe [list_iter]
-list_if: 'if' old_test [list_iter]
+list_for: ('for'|'FOREXP') exprlist ('in'|'INEXP') testlist_safe [list_iter]
+list_if: ('if'|'IFEXP') old_test [list_iter]
 
 comp_iter: comp_for | comp_if
-comp_for: 'for' exprlist 'in' or_test [comp_iter]
-comp_if: 'if' old_test [comp_iter]
+comp_for: ('for'|'FOREXP') exprlist ('in'|'INEXP') or_test [comp_iter]
+comp_if: ('if'|'IFEXP') old_test [comp_iter]
 
 testlist1: test (',' test)*
 
