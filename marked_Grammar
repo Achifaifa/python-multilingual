@@ -42,7 +42,7 @@ augassign: ('+=' | '-=' | '*=' | '/=' | '%=' | '&=' | '|=' | '^=' |
 print_stmt: ('print'|'PRINTEXP') ( [ test (',' test)* [','] ] |
                       '>>' test [ (',' test)+ [','] ] )
 del_stmt: ('del'|'DELEXP') exprlist
-pass_stmt: ('pass'|'PASEXP')
+pass_stmt: ('pass'|'PASSEXP')
 flow_stmt: break_stmt | continue_stmt | return_stmt | raise_stmt | yield_stmt
 break_stmt: ('break'|'BREAKEXP')
 continue_stmt: ('continue'|'CONTINUEEXP')

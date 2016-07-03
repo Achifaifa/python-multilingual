@@ -17,7 +17,7 @@ spanish={"PRINTEXP": "imprimir", #print
 "ELIFEXP": "ysi", #elif
 "ELSEEXP": "ysino", #else
 "WHILEEXP": "mientras", #while
-"FOREXP": "para cada", #for
+"FOREXP": "paracada", #for
 "TRYEXP": "intentar", #try
 "FINALLYEXP": "finalmente", #finally
 "WITHEXP": "con", #with

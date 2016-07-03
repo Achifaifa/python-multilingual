@@ -1,6 +1,6 @@
 ### Multilingual python
 
-Attempt to make python more accessile to kids. It takes a dictionary with keyword translations, applies it to a modified python Grammar file and generates a new Grammar file that accepts the translated keywords as valid
+Attempt to make the scratch-python transition more accessile to kids. It takes a dictionary with keyword translations, applies it to a modified python Grammar file and generates a new Grammar file that accepts the translated keywords as valid
 
 #### Usage
 
