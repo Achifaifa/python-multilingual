@@ -64,9 +64,9 @@ assert_stmt: ('assert'|'ASSERTEXP') test [',' test]
 
 compound_stmt: if_stmt | while_stmt | for_stmt | try_stmt | with_stmt | funcdef | classdef | decorated
 if_stmt: ('if'|'IFEXP') test ':' suite (('elif'|'ELIFEXP') test ':' suite)* [('else'|'ELSEEXP') ':' suite]
-while_stmt: ('while':'WHILEEXP') test ':' suite [('else'|'ELSEEXP') ':' suite]
-for_stmt: ('for':'FOREXP') exprlist ('in'|'INEXP') testlist ':' suite [('else'|'ELSEEXP') ':' suite]
-try_stmt: (('try':'TRYEXP') ':' suite
+while_stmt: ('while'|'WHILEEXP') test ':' suite [('else'|'ELSEEXP') ':' suite]
+for_stmt: ('for'|'FOREXP') exprlist ('in'|'INEXP') testlist ':' suite [('else'|'ELSEEXP') ':' suite]
+try_stmt: (('try'|'TRYEXP') ':' suite
            ((except_clause ':' suite)+
             [('else'|'ELSEEXP') ':' suite]
             [('finally'|'FINALLYEXP') ':' suite] |

@@ -1,6 +1,5 @@
-spanish={/
 # marker : translated expression # original python keyword
-"PRINTEXP": "imprimir", #print
+spanish={"PRINTEXP": "imprimir", #print
 "DELEXP": "borrar", #del
 "PASSEXP": "pasar", #pass
 "BREAKEXP": "salir", #break
@@ -31,5 +30,4 @@ spanish={/
 "NOTEXP": "no", #not
 "ISEXP": "es", #is
 "CLASSEXP": "clase", #class
-
 }
