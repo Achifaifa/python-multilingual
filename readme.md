@@ -1,6 +1,6 @@
 ### Multilingual python
 
-Attempt to make the scratch-python transition more accessile to kids. It takes a dictionary with keyword translations, applies it to a modified python Grammar file and generates a new Grammar file that accepts the translated keywords as valid
+Attempt to make the scratch-python transition more accessible to kids. It takes a dictionary with keyword translations, applies it to a modified python Grammar file and generates a new Grammar file that accepts the translated keywords as valid
 
 #### Usage
 
@@ -15,6 +15,10 @@ To contribute with a new translation:
 * Modify the template.py file and add your translations in the empty strings
 * Change the dict name for the language, and the file for `[language].py` (ASCII only)
 * Add that file to the languages folder and make a pull request
+
+#### Known issues
+
+* The translated `and` keyword behaves like an `or` instruction.
 
 #### Catches
 
