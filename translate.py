@@ -7,11 +7,7 @@ if len(sys.argv)!=2:
   print "make sure the language exists in the ./language/ folder"
   exit()
 
-try:
-  lang=sys.argv[1]
-except IndexError:
-  print "No language specified"
-  exit()
+lang=sys.argv[1]
 
 try:
   exec("from languages import %s as l")%lang
