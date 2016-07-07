@@ -1,6 +1,6 @@
-empty={/
 # marker : translated expression # original python keyword
-"PRINTEXP": "", #print
+empty={"PRINTEXP": "", #print
+"DEFEXP": "", #define
 "DELEXP": "", #del
 "PASSEXP": "", #pass
 "BREAKEXP": "", #break
@@ -31,5 +31,4 @@ empty={/
 "NOTEXP": "", #not
 "ISEXP": "", #is
 "CLASSEXP": "", #class
-
 }
