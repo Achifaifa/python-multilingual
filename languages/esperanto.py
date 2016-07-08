@@ -1,4 +1,5 @@
 # marker : translated expression # original python keyword
+# Translation: @ChusGC
 esperanto={"PRINTEXP": "presi", #print
 "DEFEXP": "difini", #define
 "DELEXP": "forvisi", #del
