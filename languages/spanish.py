@@ -1,4 +1,5 @@
 # marker : translated expression # original python keyword
+# Translation: @Achifaifa
 spanish={"PRINTEXP": "imprimir", #print
 "DEFEXP": "definir", #def
 "DELEXP": "borrar", #del
