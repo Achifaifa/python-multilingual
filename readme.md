@@ -5,7 +5,7 @@ Attempt to make the scratch-python transition more accessible to kids. It takes 
 #### Usage
 
 To translate a grammar file: 
-* Make sure the language you want is in the languages file
+* Make sure the language you want is in the languages folder
 * run `python translate.py [language]`
 * Copy the generated `grammar_[language]` file to the Grammar folder in your python source folder, overwriting the `Grammar` file
 * Compile python as usual
